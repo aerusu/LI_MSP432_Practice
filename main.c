@@ -1,10 +1,11 @@
-#include "msp.h"
+//micah li
+//start of practicing msp432 embedded programming
+
+#include <stdio.h>
+#include <ti/devices/msp432p4xx/driverlib/driverlib.h>
 
 
-/**
- * main.c
- */
-void main(void)
-{
-	WDT_A->CTL = WDT_A_CTL_PW | WDT_A_CTL_HOLD;		// stop watchdog timer
+int main(){
+
+    return 0;
 }
